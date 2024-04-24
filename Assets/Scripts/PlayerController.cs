@@ -3,15 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
-    public float speed = 12.0f;
+    private float speed = 12.0f;
+    private float turnSpeed = 65.0f;
+    private float horizontalInput;
+    private float verticalInput;
 
     void Start() {
 
     }
 
     void Update() {
+        horizontalInput = Input.GetAxis("Horizontal");
+        verticalInput = Input.GetAxis("Vertical");
 
-        transform.Translate(Vector3.forward * Time.deltaTime * speed);
+        transform.Translate(Vector3.forward * Time.deltaTime * speed * verticalInput);
+        transform.Rotate(Vector3.up * Time.deltaTime * turnSpeed * horizontalInput);
 
     }
 }
