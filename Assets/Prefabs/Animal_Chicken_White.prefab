@@ -380,6 +380,9 @@ GameObject:
   - component: {fileID: 349656273622143227}
   - component: {fileID: 1153340284036086374}
   - component: {fileID: -9003879905891756006}
+  - component: {fileID: 1360259092632710571}
+  - component: {fileID: 9106338512587581767}
+  - component: {fileID: 6405625186337355152}
   m_Layer: 0
   m_Name: Animal_Chicken_White
   m_TagString: Untagged
@@ -456,6 +459,66 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5017791e928eece4385d6fd09e581f17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &1360259092632710571
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4125848736191278593}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 8.188621, y: 16.349768, z: 19.908524}
+  m_Center: {x: 0.005347199, y: 7.8866677, z: 1.202731}
+--- !u!114 &9106338512587581767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4125848736191278593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 847905ba4b211e84881b76472482d27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &6405625186337355152
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4125848736191278593}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &4180401732710126632
 GameObject:
   m_ObjectHideFlags: 0

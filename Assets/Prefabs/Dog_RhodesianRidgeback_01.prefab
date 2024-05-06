@@ -1754,6 +1754,9 @@ GameObject:
   - component: {fileID: 2588997362427102682}
   - component: {fileID: 7083291191941056322}
   - component: {fileID: 444444954668253199}
+  - component: {fileID: 3740840989873682828}
+  - component: {fileID: 8017411235581575326}
+  - component: {fileID: 5086128616702081541}
   m_Layer: 0
   m_Name: Dog_RhodesianRidgeback_01
   m_TagString: Untagged
@@ -1859,6 +1862,66 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5017791e928eece4385d6fd09e581f17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &3740840989873682828
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3205891934455276374}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.09503279, y: 0.19532028, z: 0.27150804}
+  m_Center: {x: 0.0009315968, y: 0.09782976, z: 0.032112505}
+--- !u!114 &8017411235581575326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3205891934455276374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 847905ba4b211e84881b76472482d27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &5086128616702081541
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3205891934455276374}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &3231558196787001662
 GameObject:
   m_ObjectHideFlags: 0
@@ -4370,7 +4433,7 @@ Transform:
   m_GameObject: {fileID: 6548716174174409101}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.032037117}
+  m_LocalPosition: {x: -0.258, y: 0, z: 0.031}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
